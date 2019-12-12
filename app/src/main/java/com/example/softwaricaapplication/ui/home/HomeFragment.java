@@ -53,6 +53,9 @@ public class HomeFragment extends Fragment {
         studentsList.add(new Students("Tasmiya Fatema", 21,"Kathmandu", "Female", R.drawable.aa, R.drawable.ddd));
         studentsList.add(new Students("Tanish S",25,"Japan","Male", R.drawable.bb, R.drawable.ddd));
         studentsList.add(new Students("John T",30,"USA","Others", R.drawable.oo, R.drawable.ddd));
+        studentsList.add(new Students("Suzan P", 51,"Kathmandu", "Female", R.drawable.aa, R.drawable.ddd));
+        studentsList.add(new Students("Aawara S",25,"UK","Male", R.drawable.bb, R.drawable.ddd));
+        studentsList.add(new Students("Wahid ",30,"USA","Others", R.drawable.oo, R.drawable.ddd));
 
         StudentAdapter studentAdapter = new StudentAdapter(studentsList);
         recyclerView.setAdapter(studentAdapter);
