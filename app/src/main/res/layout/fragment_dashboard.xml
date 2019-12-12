@@ -54,6 +54,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etage" />
 
+    <RadioGroup
+
+        android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/rdoGroup"
+        >
+
     <RadioButton
         android:id="@+id/rdomale"
         android:layout_width="153dp"
@@ -80,6 +88,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rdofemale" />
 
+    </RadioGroup>
     <EditText
         android:id="@+id/etaddress"
         android:layout_width="match_parent"

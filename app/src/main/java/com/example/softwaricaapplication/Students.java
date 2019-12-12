@@ -10,7 +10,7 @@ public class Students
     private int imggender;
     private int imgbtndelete;
 
-    public Students(String name, int age, String address, String gender, int imggender, int imgbtndelete) {
+    public Students(String name, int age, String address, String gender) {
         this.name = name;
         this.age = age;
         this.address = address;
