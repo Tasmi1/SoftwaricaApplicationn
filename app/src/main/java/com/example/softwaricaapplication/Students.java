@@ -10,13 +10,16 @@ public class Students
     private int imggender;
     private int imgbtndelete;
 
-    public Students(String name, int age, String address, String gender) {
+    public Students(String name, int age, String address, String gender, int imggender, int imgbtndelete) {
         this.name = name;
         this.age = age;
         this.address = address;
         this.gender = gender;
         this.imggender = imggender;
         this.imgbtndelete = imgbtndelete;
+    }
+
+    public Students(String fullname, int parseInt, String address, String gender) {
     }
 
     public String getName() {
