@@ -1,14 +1,14 @@
-package com.example.softwaricaapplication.ui.dashboard;
+package com.example.softwaricaapplication.ui.AddStudent;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class DashboardViewModel extends ViewModel {
+public class AddstudentViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public DashboardViewModel() {
+    public AddstudentViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("");
     }
